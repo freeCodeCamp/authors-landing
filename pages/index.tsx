@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Meta from './components/meta';
+import Meta from '../components/meta';
 
 const Home: NextPage = () => {
   return (

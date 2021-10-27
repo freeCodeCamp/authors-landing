@@ -55,10 +55,6 @@ const Meta = () => (
     />
     <meta content="a40ee5d5dba3bb091ad783ebd2b1383f" name="p:domain_verify" />
     <meta content="#FFFFFF" name="msapplication-TileColor" />
-    <meta
-      content="https://cdn.freecodecamp.org/universal/favicons/browserconfig.xml"
-      rel="msapplication-config"
-    />
     <link
       href="https://cdn.freecodecamp.org/universal/favicons/android-chrome-192x192.png"
       rel="android-chrome"
