@@ -22,8 +22,8 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Welcome back Authors.</h1>
 
         <p className={styles.description}>
-          We have several publications. Select one of the languages below, and
-          enter your credentials on the next page.
+          Select one of the languages below, and enter your credentials for the
+          Ghost CMS on the next page to get started.
         </p>
 
         <div className={styles.grid}>
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
           </a>
         </div>
         <div className={styles.heading}>
-          <h2>Not an author yet?</h2>
+          <h2>Interested in being an author?</h2>
           <p className={styles.description}>
             Here is a quick introduction on{' '}
             <a
