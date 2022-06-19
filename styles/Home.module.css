@@ -91,7 +91,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1200px;
   margin-top: 3rem;
 }
 
@@ -103,14 +103,15 @@
   text-decoration: none;
   border: 3px solid #0a0a23;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 30%;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #002ead;
-  border-color: #002ead;
+  color: #fafafa;
+  border-color: #0070f3;
+  background-color: #0a0a23;
 }
 
 .card h2 {

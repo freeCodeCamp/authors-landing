@@ -3,6 +3,24 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Meta from '../components/meta';
 
+const availableGhostInstances = [
+  { languageSlug: 'english', buttonLabel: 'English' },
+  // Everything below is ordered alphabetically
+  { languageSlug: 'arabic', buttonLabel: 'Arabic (عَرَبِيّ)' },
+  { languageSlug: 'bengali', buttonLabel: 'Bengali (বাংলা)' },
+  { languageSlug: 'chinese', buttonLabel: 'Chinese (中文)' },
+  { languageSlug: 'espanol', buttonLabel: 'Spanish (Español)' },
+  { languageSlug: 'german', buttonLabel: 'German (Deutsch)' },
+  { languageSlug: 'hindi', buttonLabel: 'Hindi (हिन्दी)' },
+  { languageSlug: 'italian', buttonLabel: 'Italian (Italiano)' },
+  { languageSlug: 'japanese', buttonLabel: 'Japanese (日本語)' },
+  { languageSlug: 'korean', buttonLabel: 'Korean (한국어)' },
+  { languageSlug: 'portuguese', buttonLabel: 'Portuguese (Português)' },
+  { languageSlug: 'turkish', buttonLabel: 'Turkish (Türk)' },
+  { languageSlug: 'ukrainian', buttonLabel: 'Ukrainian (Українська)' },
+  { languageSlug: 'urdu', buttonLabel: 'Urdu (اُردُو)' }
+];
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -27,70 +45,17 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a
-            href='https://www.freecodecamp.org/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>English &rarr;</h2>
-          </a>
-          <a
-            href='https://chinese.freecodecamp.org/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Chinese (中文) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/espanol/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Spanish (Español) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/italian/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Italian (Italiano) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/japanese/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Japanese (日本語) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/arabic/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Arabic (عربي) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/portuguese/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Portuguese (Português) &rarr;</h2>
-          </a>
-          <a
-            href='https://www.freecodecamp.org/ukrainian/news/ghost'
-            className={styles.card}
-            target='_blank'
-            rel='noreferrer'
-          >
-            <h2>Ukrainian (український) &rarr;</h2>
-          </a>
+          {availableGhostInstances.map(({ languageSlug, buttonLabel }) => (
+            <a
+              key={languageSlug}
+              href={`https://www.freecodecamp.org/${languageSlug}/news/ghost`}
+              className={styles.card}
+              target='_blank'
+              rel='noreferrer'
+            >
+              <h2>{buttonLabel} &rarr;</h2>
+            </a>
+          ))}
         </div>
         <div className={styles.heading}>
           <h2>Interested in being an author?</h2>
