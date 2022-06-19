@@ -10,8 +10,8 @@ const Home: NextPage = () => {
       <header>
         <nav className={styles.universalnav}>
           <Image
-            alt="freeCodeCamp.org logo"
-            src="/fcc_primary.svg"
+            alt='freeCodeCamp.org logo'
+            src='/fcc_primary.svg'
             width={200}
             height={24}
           />
@@ -28,66 +28,66 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a
-            href="https://www.freecodecamp.org/news/ghost"
+            href='https://www.freecodecamp.org/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>English &rarr;</h2>
           </a>
           <a
-            href="https://chinese.freecodecamp.org/news/ghost"
+            href='https://chinese.freecodecamp.org/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Chinese (中文) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/espanol/news/ghost"
+            href='https://www.freecodecamp.org/espanol/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Spanish (Español) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/italian/news/ghost"
+            href='https://www.freecodecamp.org/italian/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Italian (Italiano) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/japanese/news/ghost"
+            href='https://www.freecodecamp.org/japanese/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Japanese (日本語) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/arabic/news/ghost"
+            href='https://www.freecodecamp.org/arabic/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Arabic (عربي) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/portuguese/news/ghost"
+            href='https://www.freecodecamp.org/portuguese/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Portuguese (Português) &rarr;</h2>
           </a>
           <a
-            href="https://www.freecodecamp.org/ukrainian/news/ghost"
+            href='https://www.freecodecamp.org/ukrainian/news/ghost'
             className={styles.card}
-            target="_blank"
-            rel="noreferrer"
+            target='_blank'
+            rel='noreferrer'
           >
             <h2>Ukrainian (український) &rarr;</h2>
           </a>
@@ -97,17 +97,17 @@ const Home: NextPage = () => {
           <p className={styles.description}>
             Here is a quick introduction on{' '}
             <a
-              href="https://www.freecodecamp.org/news/how-to-write-for-freecodecamp/"
-              target="_blank"
-              rel="noreferrer"
+              href='https://www.freecodecamp.org/news/how-to-write-for-freecodecamp/'
+              target='_blank'
+              rel='noreferrer'
             >
               how to write for freeCodeCamp news
             </a>
             , and here is the{' '}
             <a
-              href="https://www.freecodecamp.org/news/developer-news-style-guide/"
-              target="_blank"
-              rel="noreferrer"
+              href='https://www.freecodecamp.org/news/developer-news-style-guide/'
+              target='_blank'
+              rel='noreferrer'
             >
               freeCodeCamp publication style guide
             </a>
@@ -118,16 +118,16 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://www.freecodecamp.org/terms"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://www.freecodecamp.org/terms'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Terms of Service
         </a>
         <a
-          href="https://www.freecodecamp.org/privacy"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://www.freecodecamp.org/privacy'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Privacy Policy
         </a>
